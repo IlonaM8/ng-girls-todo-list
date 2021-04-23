@@ -13,8 +13,7 @@ import { TodoListService } from '../service/todo-list.service';
           <app-todo-item
             [item]="todoItem"
             (remove)="removeItem($event)"
-            (update)="updateItem($event.item, $event.changes)"
-          ></app-todo-item>
+            (update)="updateItem($event.item, $event.changes)"></app-todo-item>
         </li>
       </ul>
     </div>
